@@ -1,0 +1,103 @@
+/* GÉNÉRAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', serif;
+}
+
+body 
+{
+    width: 100%;
+    height: 100vh;
+}
+
+h1 
+{
+    font-weight: bold;
+}
+
+p
+{
+    color: #6b6b6b;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+h2
+{
+    font-size: 16px;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/* BODY */
+
+body
+{
+    background-color: #f4d04e;
+}
+
+#main-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 100vh;
+    margin: auto;
+}
+
+.main-content
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    border: solid 2px #121212;
+    box-shadow: 7px 7px #121212;
+}
+
+.main-content img
+{
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.overlay
+{
+    color: #121212;
+    font-weight: bolder;
+    display: inline-block;
+    background-color: #f4d04e;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.published
+{
+    padding: 15px 0;
+}
+
+.signature
+{
+    display: flex;
+    align-content: center;
+}
+
+.signature img
+{
+    width: 10%;
+}
+
+.attribution 
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin-left: 8px;
+    text-align: center;
+}
