@@ -10,7 +10,7 @@
 
 body 
 {
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
 }
 
@@ -24,15 +24,15 @@ p
     color: #6b6b6b;
     font-weight: 500;
     line-height: 1.5;
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 
 h2
 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bolder;
-    padding-left: 10px;
-    padding-top: 5px;
+    padding-left: 0.625rem;
+    padding-top: 0.313rem;
 }
 
 /* BODY */
@@ -55,16 +55,16 @@ body
 .main-content
 {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 15px;
-    border: solid 2px #121212;
-    box-shadow: 7px 7px #121212;
+    padding: 1.25rem;
+    border-radius: 0.938rem;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.438rem 0.438rem #121212;
 }
 
 .main-content img
 {
-    margin-bottom: 15px;
-    border-radius: 15px;
+    margin-bottom: 0.938rem;
+    border-radius: 0.938rem;
 }
 
 .overlay
@@ -73,13 +73,13 @@ body
     font-weight: bolder;
     display: inline-block;
     background-color: #f4d04e;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 0.313rem 0.625rem;
+    border-radius: 0.313rem;
 }
 
 .published
 {
-    padding: 15px 0;
+    padding: 0.938rem 0;
 }
 
 .signature
@@ -96,8 +96,8 @@ body
 .attribution 
 {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
-    margin-left: 8px;
+    bottom: 0.625rem;
+    right: 0.625rem;
+    margin-left: 0.5rem;
     text-align: center;
 }
